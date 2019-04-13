@@ -60,8 +60,8 @@ carry	FILL		4
 		ADR		R11, result		; Load mem address of result into R11
 		ADR		R10, carry		; Load mem address of carry into R10
 		
-		STR		R2, [R11], #4
-		STR		R3, [R11]
+		STR		R3, [R11], #4
+		STR		R2, [R11]
 		
 		BCC		stop
 		MOV		R4, #1
